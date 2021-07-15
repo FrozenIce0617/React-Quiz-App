@@ -2,6 +2,15 @@
 
 This is a simple personality quiz test app. 
 
+<p align="center">
+    <img src="./screenshots/landing_page.png" alt="screenshot"
+	width="700" height="300" />
+    <img src="./screenshots/quiz_1.png" alt="screenshot"
+	width="700" height="300" />
+    <img src="./screenshots/quiz_2.png" alt="screenshot"
+	width="700" height="300" />
+</p>
+
 ## Features
 - Landing page
 - Personality test page
