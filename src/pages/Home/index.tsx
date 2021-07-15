@@ -1,6 +1,23 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import { Link } from "react-router-dom";
+import Button from "../../components/Button";
+
+const Home = () => {
+  return (
+    <HomeWrapper>
+      <LeftSide
+        background={
+          "https://jnswire.s3.amazonaws.com/jns-media/38/c0/11571637/personalitytest.jpeg"
+        }
+      />
+      <RightSide>
+        <Button to="/test" title="Start Test" />
+      </RightSide>
+    </HomeWrapper>
+  );
+};
+
+export default React.memo(Home);
 
 const keyFrameAnim = keyframes`
     0% {
@@ -36,28 +53,3 @@ const RightSide = styled.div`
   align-items: center;
 `;
 
-const StartButton = styled(Link)`
-  color: white;
-  padding: 1rem;
-  font-size: 2rem;
-`;
-
-const Home = () => {
-  return (
-    <HomeWrapper>
-      <LeftSide
-        background={
-          "https://jnswire.s3.amazonaws.com/jns-media/38/c0/11571637/personalitytest.jpeg"
-        }
-      />
-      <RightSide>
-        <StartButton
-          to="/test"
-          className="button-link"
-        >{`Start Test >> `}</StartButton>
-      </RightSide>
-    </HomeWrapper>
-  );
-};
-
-export default React.memo(Home);

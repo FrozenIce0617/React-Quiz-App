@@ -1,7 +1,7 @@
 {
     "quizQuestions": [
         {
-            "id": 1,
+            "id": 0,
             "question": "You’re really busy at work and a colleague is telling you their life story and personal woes. You:",
             "answerIndex": 2,
             "answerOptions": [
@@ -12,7 +12,7 @@
             ]
         },
         {
-            "id": 2,
+            "id": 1,
             "question": "You’ve been sitting in the doctor’s waiting room for more than 25 minutes. You:",
             "answerIndex": 2,
             "answerOptions": [
@@ -23,7 +23,7 @@
             ]
         },
         {
-            "id": 3,
+            "id": 2,
             "question": "You’re having an animated discussion with a colleague regarding a project that you’re in charge of. You:",
             "answerIndex": 2,
             "answerOptions": [
@@ -34,7 +34,7 @@
             ]
         },
         {
-            "id": 4,
+            "id": 3,
             "question": "You are taking part in a guided tour of a museum. You:",
             "answerIndex": 2,
             "answerOptions": [
@@ -45,7 +45,7 @@
             ]
         },
         {
-            "id": 5,
+            "id": 4,
             "question": "During dinner parties at your home, you have a hard time with people who:",
             "answerIndex": 2,
             "answerOptions": [
@@ -56,7 +56,7 @@
             ]
         },
         {
-            "id": 6,
+            "id": 5,
             "question": "You crack a joke at work, but nobody seems to have noticed. You:",
             "answerIndex": 2,
             "answerOptions": [
@@ -67,7 +67,7 @@
             ]
         },
         {
-            "id": 7,
+            "id": 6,
             "question": "This morning, your agenda seems to be free. You:",
             "answerIndex": 2,
             "answerOptions": [
@@ -78,7 +78,7 @@
             ]
         },
         {
-            "id": 8,
+            "id": 7,
             "question": "During dinner, the discussion moves to a subject about which you know nothing at all. You:",
             "answerIndex": 2,
             "answerOptions": [
@@ -89,7 +89,7 @@
             ]
         },
         {
-            "id": 9,
+            "id": 8,
             "question": "You’re out with a group of friends and there’s a person who’s quite shy and doesn’t talk much. You:",
             "answerIndex": 2,
             "answerOptions": [
@@ -100,7 +100,7 @@
             ]
         },
         {
-            "id": 10,
+            "id": 9,
             "question": "At work, somebody asks for your help for the hundredth time. You:",
             "answerIndex": 2,
             "answerOptions": [
@@ -111,7 +111,7 @@
             ]
         },
         {
-            "id": 11,
+            "id": 10,
             "question": "You’ve been see a movie with your family and the reviews are mixed. You:",
             "answerIndex": 2,
             "answerOptions": [
@@ -122,7 +122,7 @@
             ]
         },
         {
-            "id": 12,
+            "id": 11,
             "question": "A friend arrives late for your meeting. You:",
             "answerIndex": 2,
             "answerOptions": [
@@ -133,7 +133,7 @@
             ]
         },
         {
-            "id": 13,
+            "id": 12,
             "question": "You can’t find your car keys. You:",
             "answerIndex": 2,
             "answerOptions": [
@@ -144,7 +144,7 @@
             ]
         },
         {
-            "id": 14,
+            "id": 13,
             "question": "It’s time for your annual appraisal with your boss. You:",
             "answerIndex": 2,
             "answerOptions": [

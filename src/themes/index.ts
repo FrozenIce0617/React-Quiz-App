@@ -10,11 +10,12 @@ const DarkTheme = createGlobalStyle`
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     color: #FFFFFF;
-    background-color: #222222;
+    background-color: #444444;
   }
 
   a {
     text-decoration: none;
+    color: white;
   }
 
   .button-link {
@@ -31,6 +32,9 @@ const DarkTheme = createGlobalStyle`
         > * {
           transform: translateY(0);
         }
+
+        background-color: #EEEEEE;
+        color: #444444;
       }
     }
 `;
