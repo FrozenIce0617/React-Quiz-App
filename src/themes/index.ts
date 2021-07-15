@@ -19,7 +19,8 @@ const DarkTheme = createGlobalStyle`
   }
 
   .button-link {
-    padding: 5px;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
     border: 1px solid rgba(255, 255, 255, 0.6);
     border-radius: 5px;
     cursor: pointer;

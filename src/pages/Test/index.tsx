@@ -25,7 +25,6 @@ const Test = () => {
   }, []);
 
   const handleOnNext = (index: number, isCorrect: boolean = false) => {
-    console.log(index, isCorrect);
     isCorrect && setScore(score + 1);
     if (index >= MAX_QUIZ_COUNT) {
       setFinished(true);

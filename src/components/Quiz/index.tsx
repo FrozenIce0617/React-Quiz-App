@@ -59,7 +59,8 @@ const QuizWrapper = styled.div`
 `;
 
 const QuestionWrapper = styled.h2`
-  padding: 0.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-style: italic;
 `;
 
 const OptonsWrapper = styled.div`
@@ -73,7 +74,7 @@ interface OptionProps {
 
 const Option = styled.div<OptionProps>`
   list-style: none;
-  padding: 10px;
+  padding: 1rem;
   border-top: 1px solid rgba(220, 220, 220, 0.4);
   cursor: hand;
   transition-property: opacity, transform;
