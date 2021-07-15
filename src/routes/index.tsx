@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import { Home, Test, Result } from "./../pages";
 
 const Routes = () => {
@@ -8,6 +8,7 @@ const Routes = () => {
         <Route exact path="/" component={Home} />
         <Route path="/test" component={Test} />
         <Route path="/result" component={Result} />
+        <Redirect from="*" to="/" />
       </Switch>
     </Router>
   );
